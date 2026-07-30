@@ -1,7 +1,6 @@
 def removeNth(string, n):
     first = string[:n]
     last = string[n+1:]
-
     return first + last
 
 string = str(input("Enter string: "))
